@@ -1,0 +1,14 @@
+# Ignore helper scripts and temp files
+convert_nb.py
+inspect_lab.py
+*.py
+
+# Ignore large example notebooks
+EDA(example).ipynb
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
